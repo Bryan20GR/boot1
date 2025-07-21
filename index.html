@@ -4,48 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-<link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <title>Bootstrap Example</title>
+    <script defer src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div>
-    <div class="row border border-primary ">
-        <div class="col-3 border border-primary bg-primary">.</div>
-    <div class="col-5 border border-primary  bg-success" >.</div>
-    <div class="col-4 border border-primary bg-danger">.</div>
+    <div class="row">
+    <div class="dropdown row col-6" data-bs-theme="light">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonLight" 
+  data-bs-toggle="dropdown" aria-expanded="false">
+    Default dropdown
+  </button>
+  <ul class="dropdown-menu " aria-labelledby="dropdownMenuButtonLight">
+    <li><a class="dropdown-item active" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
 </div>
-<div class="row border border-primary">
-        <div class="col-6 border border-primary bg-danger">.</div>
-    <div class="col-2 border border-primary bg-success">.</div>
-    <div class="col-4 border border-primary bg-info">.</div>
-</div> 
-
-<div class="row border border-primary">
-        <div class="col-11 border border-primary bg-dark">.</div>
-<div class="col-1 border border-primary bg-warning"></div>
-    </div>
-<div class="row border border-primary">
-        <div class="col-2 border border-primary bg-secondary">.</div>
-<div class="col-2 border border-primary bg-danger">.</div>
-<div class="col-2 border border-primary bg-primary">.</div>
-<div class="col-2 border border-primary bg-info">.</div>
-<div class="col-2 border border-primary bg-warning">.</div>
-<div class="col-2 border border-primary bg-success">.</div>
-</div>
-<div class="row border border-primary">
-<div class="col-1 border border-primary bg-danger">.</div>
-<div class="col-1 border border-primary bg-info">.</div>
-<div class="col-1 border border-primary bg-dark">.</div>
-<div class="col-1 border border-primary bg-success">.</div>
-<div class="col-1 border border-primary bg-warning">.</div>
-<div class="col-1 border border-primary bg-secondary">.</div>
-<div class="col-1 border border-primary bg-primary">.</div>
-<div class="col-1 border border-primary bg-danger">.</div>
-<div class="col-1 border border-primary bg-info">.</div>
-<div class="col-1 border border-primary bg-dark">.</div>
-<div class="col-1 border border-primary bg-success">.</div>
-<div class="col-1 border border-primary bg-warning">.</div>
-</div>
-</div>
+<div class="dropdown row col-6 " data-bs-theme="dark"  >
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDark"
+   data-bs-toggle="dropdown" aria-expanded="false">
+    Dark dropdown
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
+    <li><a class="dropdown-item active" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div></div>
 </body>
 </html>
